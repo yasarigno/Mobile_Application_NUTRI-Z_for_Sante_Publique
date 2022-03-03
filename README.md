@@ -1,6 +1,6 @@
 ---
 ### PROJET-3 
-### Building a mobile application for public health
+### Building a mobile application for Santè Publique France
 ---
 ### Start-up project of the "ACADEMY"
 <p align="center">
