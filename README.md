@@ -16,6 +16,10 @@ We are responsable for verifing that the database
 ---
 Data source:
 
+https://world.openfoodfacts.org
+
+or
+
 https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/parcours-data-scientist/P2/fr.openfoodfacts.org.products.csv.zip
 
 ---
