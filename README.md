@@ -8,10 +8,10 @@
 </p>
 
 The [Santé publique France](https://www.santepubliquefrance.fr) has launched a call for projects to find innovative ideas for food-related mobile applications. We propose _*NUTRI + Z*_ that will provide the user:
-  - **NutriScore**, which is a degree alphabetic from A to E (E being the worst),
-  - an alert **Z** which inform the user whether the product likely have adverse effects on health or on the environment.
+  - **NutriScore**, which is a letter grade varying from A (best) to E (worst),
+  - an alert **Z** which inform the user whether the product likely have adverse effects on health or on the environment. We are working on a dataset which consist of foods or beverages. The alert **Z** takes into account the material of the packaging, the ingredients of the product. For instance, that its package contains plastics will mean that the product may pollute the environment. Therefore, the user will be informed about negative effects of consumpting that product.
 
-We are responsable for verifing that the database
+We are responsable for verifing if the database of OpenFoodFacts contains enough information to implement the application project. In other words, we provide a result on the feasibility of our project.
 
 ---
 Data source:
