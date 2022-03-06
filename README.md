@@ -13,6 +13,12 @@ The [Santé publique France](https://www.santepubliquefrance.fr) has launched a 
 
 We are responsable for verifing if the database of OpenFoodFacts contains enough information to implement the application project. In other words, we provide a result on the feasibility of our project.
 
+Concept of a mobile application 
+
+<p align="center">
+<img align="center" src="support\mobile_application_concept.png" style="width: 400px" />
+</p>
+
 ---
 Data source:
 
@@ -21,6 +27,12 @@ https://world.openfoodfacts.org
 or
 
 https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/parcours-data-scientist/P2/fr.openfoodfacts.org.products.csv.zip
+
+---
+
+There are 3 notebooks in this project. In the first notebook, we clean the dataset and perform a first exploratory data analysis. We define the related in the second notebook, which are required to built the **Z** alert and ecoscore. There can be found a second data analysis such as correlations between the variables, ANOVA and some statistical tests. 
+
+In the dataset, there exist products for which the variable "NutriScore" is not available. The final notebook provides a way to fill in these missing values. We also see here a good example showing that imputation by mean or median is not always a good idea in the sense that it deforms dramatically the distribution of the target variable, i.e. NutriScore.
 
 ---
 Technical tools used in this project are
@@ -32,9 +44,3 @@ Technical tools used in this project are
   - Matplotlib
   - WordCloud
   - KnnImputer
-
-Here is a good picture showing the final result.
-
-<p align="center">
-<img align="center" src="support\figure_pays_en_priorite.png" style="width: 800px" />
-</p>
