@@ -1,5 +1,5 @@
 ---
-### PROJET-3 
+
 ### Building a mobile application for Santé Publique France
 
 [Click here](https://yasarigno.github.io/folder/P3_support.pdf) for the presentation file of the project. 
